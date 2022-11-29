@@ -1,0 +1,168 @@
+* {
+    margin: 1%;
+    padding: 0;
+    // box-sizing: border-box;
+}
+
+@mixin flex($direction, $justify, $align) {
+    display:flex;
+    flex-direction:$direction;
+    justify-content: $justify;
+    align-items: $align; 
+}
+
+// $primary-color:#7FA883;
+// $secondary-color:#097B45;
+// $third-color:#8F8F8F;
+// $white-text:#ffff;
+// $black-text:#0000;
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.k-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            color: green;
+            }
+        
+        h2,.h3-grön {
+            color: green;
+            }
+        
+        h3 {
+            font-size: 1rem;
+            }
+        
+        p {
+            font-size: 1rem;
+            }
+}
+
+
+//Section 1
+
+.kursutbud {
+   // display: inline;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-content: center;
+   margin-bottom: 20px;
+
+    .utbud {
+        display: block;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: medium;
+        background-color: #7fa883;
+        color: #fff;
+        position: relative;
+        padding: 2% 2% 5% 2%;
+        margin-left: 30px;
+        width: 20%;
+        height: 70%;
+      
+            img {
+                display: block;
+                position: relative;
+                max-width: 100%;
+                max-height: 100%;
+            }
+            h2 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        
+        .b-boka{
+            position: absolute;
+            align-content: center;
+            width: 50%;
+            height: 10%;
+            background-color: #097B45;
+            color: #fff;
+            border: none;
+            margin-left: 50px;
+            margin-top: 8px;
+            cursor: pointer;
+            text-decoration: none;
+
+            .b-boka:hover {
+                opacity: 1;
+            }
+        }
+    }
+ }
+
+
+ //Section 2
+
+ .pass {
+    // display: inline;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 20px;
+ 
+
+    .utbud {
+        display: block;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: medium;
+        background-color: #7fa883;
+        color: #fff;
+        position: relative;
+        padding: 2% 2% 5% 2%;;
+        margin-left: 30px;
+        width: 20%;
+        height: 70%;
+
+            img {
+                display: block;
+                position: relative;
+                max-width: 100%;
+                max-height: 100%;
+            }    
+            h2 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            
+        .b-boka{
+            position: absolute;
+            align-content: center;
+            width: 50%;
+            height: 10%;
+            background-color: #097B45;
+            color: #fff;
+            border: none;
+            margin-left: 50px;
+            margin-top: 8px;
+            cursor: pointer;
+            text-decoration: none;
+
+            .b-boka:hover {
+                opacity: 1;
+                background-color: #7fa883;
+            }
+        }
+    }
+ }

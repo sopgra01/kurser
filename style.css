@@ -1,0 +1,134 @@
+@charset "UTF-8";
+* {
+  margin: 1%;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.k-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.k-info h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: green;
+}
+.k-info h2, .k-info .h3-grön {
+  color: green;
+}
+.k-info h3 {
+  font-size: 1rem;
+}
+.k-info p {
+  font-size: 1rem;
+}
+
+.kursutbud {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.kursutbud .utbud {
+  display: block;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-size: medium;
+  background-color: #7fa883;
+  color: #fff;
+  position: relative;
+  padding: 2% 2% 5% 2%;
+  margin-left: 30px;
+  width: 20%;
+  height: 70%;
+}
+.kursutbud .utbud img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+.kursutbud .utbud h2 {
+  text-align: center;
+}
+.kursutbud .utbud p {
+  text-align: center;
+}
+.kursutbud .utbud .b-boka {
+  position: absolute;
+  align-content: center;
+  width: 50%;
+  height: 10%;
+  background-color: #097B45;
+  color: #fff;
+  border: none;
+  margin-left: 50px;
+  margin-top: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.kursutbud .utbud .b-boka .b-boka:hover {
+  opacity: 1;
+}
+
+.pass {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.pass .utbud {
+  display: block;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-size: medium;
+  background-color: #7fa883;
+  color: #fff;
+  position: relative;
+  padding: 2% 2% 5% 2%;
+  margin-left: 30px;
+  width: 20%;
+  height: 70%;
+}
+.pass .utbud img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+.pass .utbud h2 {
+  text-align: center;
+}
+.pass .utbud p {
+  text-align: center;
+}
+.pass .utbud .b-boka {
+  position: absolute;
+  align-content: center;
+  width: 50%;
+  height: 10%;
+  background-color: #097B45;
+  color: #fff;
+  border: none;
+  margin-left: 50px;
+  margin-top: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pass .utbud .b-boka .b-boka:hover {
+  opacity: 1;
+  background-color: #7fa883;
+}/*# sourceMappingURL=style.css.map */
